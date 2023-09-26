@@ -1,0 +1,6 @@
+-- What was the average rental duration for all videos?
+
+SELECT		AVG(rental_duration) AS averge_rental_duration
+FROM 		film a
+INNER JOIN 	inventory b  ON a.film_id	           = b.film_id
+INNER JOIN 	rental c 	ON b.inventory_id = c.inventory_id
