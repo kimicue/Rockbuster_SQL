@@ -1,0 +1,9 @@
+The minimum, maximum, and average values.
+
+SELECT
+          MIN(rental_duration)    AS min_rent_dur,       MAX(rental_duration)    AS max_rent_dur,            AVG(rental_duration)    AS avg_rent_dur,       COUNT(rental_duration)     	AS cnt_rent_dur,
+          MIN(rental_rate)	        AS min_rent_rate,      MAX(rental_rate)	  AS max_rent_rate,         AVG(rental_rate)              AS avg_rent_rate,     COUNT(rental_rate)            	AS cnt_rent_rate,
+          MIN(length)	        AS min_len,	   MAX(length)	  AS max_len,                    AVG(length)	                      AS avg_len,	               COUNT(length)		AS cnt_len,
+          MIN(replacement_cost)AS min_replmt_cost, MAX(replacement_cost) AS max_replmt_cost, AVG(replacement_cost).   AS avg_replmt_cost, COUNT(replacement_cost)	AS cnt_replmt_cost,
+          COUNT(*) AS cnt_row
+FROM	film
