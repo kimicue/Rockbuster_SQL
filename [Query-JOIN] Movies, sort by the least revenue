@@ -1,0 +1,10 @@
+-- Which movies contributed the least to revenue gain?
+
+SELECT 		a.film_id, a.title, SUM(d.amount) AS revenue
+FROM 		film a
+INNER JOIN 	inventory b	ON a.film_id      = b.film_id
+INNER JOIN 	rental c 	  ON b.inventory_id = c.inventory_id
+INNER JOIN 	payment d 	ON c.rental_id    = d.rental_id
+
+GROUP BY 		a.film_id
+ORDER BY 		revenue ASC
