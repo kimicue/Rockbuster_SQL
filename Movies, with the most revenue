@@ -1,4 +1,4 @@
-# Which movies contributed the most to revenue gain?
+-- Which movies contributed the most to revenue gain?
 
 SELECT 		a.film_id, a.title, SUM(d.amount) AS revenue
 FROM 		film a
