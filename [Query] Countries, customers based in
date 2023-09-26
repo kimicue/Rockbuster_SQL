@@ -9,11 +9,11 @@ SELECT		a.country,
 
 FROM 		country a
 
-INNER JOIN 	city b 	ON a.country_id     = b.country_id
-INNER JOIN 	address c 	ON b.city_id    = c.city_id
-INNER JOIN 	customer d 	ON c.address_id = d.address_id
-INNER JOIN	rental e 	ON d.customer_id  = e.customer_id
-INNER JOIN	payment f 	ON e.rental_id  = f.rental_id
+INNER JOIN 	city b     ON a.country_id  = b.country_id
+INNER JOIN 	address c  ON b.city_id     = c.city_id
+INNER JOIN 	customer d ON c.address_id  = d.address_id
+INNER JOIN	rental e   ON d.customer_id = e.customer_id
+INNER JOIN	payment f  ON e.rental_id   = f.rental_id
 
-GROUP BY 		a.country
-ORDER BY 		number_of_customer DESC
+GROUP BY 	a.country
+ORDER BY 	number_of_customer DESC
