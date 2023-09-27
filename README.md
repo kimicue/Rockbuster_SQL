@@ -1,16 +1,27 @@
 # Rockbuster_SQL
-A data analysis project using PostgreSQL to analyze data from a fictional movie rental company, Rockbuster Stealth.
+
+## BACKGROUND
+Performing a data analysis project utilizing PostgreSQL to examine data from a fictitious movie rental enterprise, Rockbuster Stealth.
+
+## INTRODUCTION
+Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
 
 ## OBJECTIVES
-Rockbuster Stealth LLC is a fictional movie rental company that used to have stores around the world. They are facing difficulties moving ahead in the age of streaming. The objective of this study is to identify where the most loyal customers are located and what films should be kept in inventory based on location in order to increase revenue.
+The Rockbuster Stealth Management Board has asked a series of business questions and they expect data-driven answers that they can use for their 2020 company strategy. Here are the main questions they’d like to answer:
+
+● Which movies contributed the most/least to revenue gain?
+● What was the average rental duration for all videos?
+● Which countries are Rockbuster customers based in?
+● Where are customers with a high lifetime value based?
+● Do sales figures vary between geographic regions?
 
 ## DATA
-A relational database made up of 15 tables contatining data on film rentals, customers, actors, payments and more. Descriptions and Entity Relationship Diagram can be found in the Rockbuster Data Dictionary. The data set worked on contained the following information:
+In this Achievement, you’ll be using a data set that contains information about Rockbuster’s film inventory, customers, and payments, among other things. The first thing you’ll need to do is load the data set into the PostgreSQL database. Keep in mind the following points regarding the data set:
 
 ### Fact Tables
 - Payment
 - Rental
-## Dimension Tables
+### Dimension Tables
 - Actor
 - Address
 - Category
@@ -26,14 +37,15 @@ A relational database made up of 15 tables contatining data on film rentals, cus
 - Store
 
 ## VISUALIZATIONS
-Visualizations were created in Tableau. 
-The link to the storyboard- https://public.tableau.com/app/profile/eui.kyu.kim/vizzes
+Visualizations are created using Tableau. 
+The link is as follows. https://public.tableau.com/app/profile/eui.kyu.kim/vizzes
 
 ## TOOLS
-Language: PostgreSQL Software: pgAdmin, DbVisualizer, Tableau, Excel
+Language: PostgreSQL 
+Software: pgAdmin, DbVisualizer, Tableau, Excel
 
 ## SKILLS DEMONSTRATED
-Cleaning data: checked and addressed duplicates, non-uniform data, and missing values.
+Cleaning data: checked and addressed missing values, duplicates, and inconsistency values.
 
 Joining tables: selected the type of joins and sequence of joins in order to minimize the time/memory needed.
 
