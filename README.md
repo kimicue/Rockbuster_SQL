@@ -41,16 +41,12 @@ Visualizations are created using Tableau.
 The link is as follows. https://public.tableau.com/app/profile/eui.kyu.kim/vizzes
 
 ## TOOLS
-Language: PostgreSQL 
-Software: pgAdmin, DbVisualizer, Tableau, Excel
+- Language: PostgreSQL 
+- Software: pgAdmin, DbVisualizer, Tableau, Excel
 
 ## SKILLS DEMONSTRATED
-Cleaning data: checked and addressed missing values, duplicates, and inconsistency values.
-
-Joining tables: selected the type of joins and sequence of joins in order to minimize the time/memory needed.
-
-Descriptive Statistics: explored basic descriptive statistics (max/min, mean or mode) for variables and used GROUP BY and ORDER BY to answer more complicated questions.
-
-Coding with Common Table Expressions (CTEs): designed CTEs that would make code more readable and easier to reuse.
-
-Reporting results: a Powerpoint presentation with answers to key questions and recommendations.
+- Cleaning data: checked and addressed missing values, duplicates, and inconsistency values.
+- Joining tables: selected the type of joins and sequence of joins in order to minimize the time/memory needed.
+- Descriptive Statistics: explored basic descriptive statistics (max/min, mean or mode) for variables and used GROUP BY and ORDER BY to answer more complicated questions.
+- Coding with Common Table Expressions (CTEs): designed CTEs that would make code more readable and easier to reuse.
+- Reporting results: a Powerpoint presentation with answers to key questions and recommendations.
