@@ -38,7 +38,7 @@ In this Achievement, you’ll be using a data set that contains information abou
 
 ## VISUALIZATIONS
 Visualizations are created using Tableau. 
-The link is as follows. https://public.tableau.com/app/profile/eui.kyu.kim/vizzes
+The link is as follows. https://public.tableau.com/app/profile/euikyu.kim 
 
 ## TOOLS
 - Language: PostgreSQL 
